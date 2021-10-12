@@ -1,7 +1,20 @@
 #my-portrait {
   width: 500px;
+  border: solid 1px green;
 }
+
 .myDiv {
   font-family: sans-serif;
+  font-size: 24px;
+
+}
+
+.labList {
+  background-color: beige;
+
+}
+
+.page {
+  background-color: #ab1239;
 
 }
