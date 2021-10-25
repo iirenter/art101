@@ -1,5 +1,5 @@
 /*
-*author. Israel Renteria
+*author. Israel Renteria & Sophia Syed
 *Date Created. 10/20/21
 */
 
