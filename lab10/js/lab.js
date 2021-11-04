@@ -12,7 +12,6 @@ var name = field.value;
 //Add a js event to listen for the button Press
 var buttonEl= document.getElementById("my-button");
 
-
 //From Lab7 sortUserName- A function that takes in a user's name then sorts the letters in alphabetical order
 
 function sortUserName() {
@@ -41,7 +40,5 @@ function sortUserName() {
   //return the result
   return nameSorted;
 }
-
-
 
 buttonEl.addEventListener("click", sortUserName);
