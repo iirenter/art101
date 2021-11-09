@@ -1,0 +1,22 @@
+
+.content {
+  font-family: sans-serif;
+  font-size: 24px;
+
+}
+
+.page {
+  background-color: azure;
+
+}
+.sectionBox {
+  border: solid 5px maroon;
+  border-radius: 20px;
+  padding: 20px;
+  margin:  20px;
+}
+
+.special {
+  background-color: #fdf7ed;
+  border: solid 5px orange;
+}
