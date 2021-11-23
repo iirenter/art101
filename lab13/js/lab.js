@@ -4,13 +4,11 @@
 */
 
 function fizzBuzzBoom() {
-  for(i=0; i<=200; i++){
-    console.log("running");
+  for(i=1; i<=200; i++){
     var outputstr= "";
     if(i%3== 0 && i%5== 0 && i%7 == 0){
       outputstr += "FizzBuzzBoom";
       $("#output").append("<p>" + outputstr + "</p>");
-      console.log("Hi");
     } else if(i%3== 0 && i%5== 0){
       outputstr += "FizzBuzz";
       $("#output").append("<p>" + outputstr + "</p>");
