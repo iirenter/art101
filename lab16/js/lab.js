@@ -4,7 +4,7 @@
 */
 
 
-var myUrl = "https://dinosaur-facts-api.shultzlab.com/dinosaurs/random";
+var myUrl = "https://xkcd.com/info.0.json";
 
 $("#activate").click(callAjax);
 
@@ -25,7 +25,13 @@ function callAjax() {
   // data is passed back
   .done(function(data) {
       console.log("Success:", data);
-      $("#output").html(JSON.stringify(data));
+      //$("#output").html(JSON.stringify(data));
+      var comicObj = data;
+      var title = document.createElement('p');
+      title= comicObj.title;
+      $("#output").html("<h1>" + title + "</h1");
+      var imgTag = "<img src=" + comicObj.img + ">";
+      $("#output").append(imgTag);
 
   })
   // If the request fails
