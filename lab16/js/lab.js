@@ -32,6 +32,10 @@ function callAjax() {
       $("#output").html("<h1>" + title + "</h1");
       var imgTag = "<img src=" + comicObj.img + ">";
       $("#output").append(imgTag);
+      var imgAlt= document.createElement('p');
+      imgAlt= comicObj.alt;
+      $("#output").append("<p>" + imgAlt + "</p>");
+
 
   })
   // If the request fails
